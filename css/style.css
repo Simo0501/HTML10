@@ -92,3 +92,19 @@
   background-color: white;
   box-shadow: 0px 2px 15px rgba(111, 111, 111, 0.188);
 }
+.main-header .col {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.search-input {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  background-color: #F3F3F8;
+}
+.search-input input {
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+
+}
