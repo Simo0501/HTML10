@@ -21,14 +21,24 @@
 }
 .main-list{
   display: flex;
-  align-items: center;
   color:#687993;
-  padding: 2rem;
+  padding: 1rem;
+  margin-top: 5rem;
+  list-style-type: none;
 }
 .btn{
   display: flex;
+  margin-top: 1rem;
   padding: 3px;
+  border: none;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+.btn p{
   border: 1px solid;
-  border-radius: 2px;
-  gap: 1;
+  border-radius: 10px;
+  background-color: blue;
+  color:white;
+  padding: 2px;
+  list-style-type: none;
 }
