@@ -43,6 +43,8 @@
   padding: 3px;
   gap: 1.5rem;
   background-color: #1A2942;
+  border-top: none;
+  border-bottom: none;
 }
 .btn :active,
 .btn :focus,
@@ -107,4 +109,13 @@
   border: none;
   background-color: transparent;
 
+}
+.profile-picture{
+  display: flex;
+  align-items: center;
+}
+.profile-picture img{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
 }
