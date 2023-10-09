@@ -6,9 +6,12 @@
 .container {
   display: flex;
   height: 100vh; 
+  overflow: hidden;
 }
 .sidebar{
+  flex-shrink: 0;
   width: 240px;
+  overflow-y: auto;
   background-color: #1A2942;
 }
 .logo{
@@ -19,27 +22,55 @@
 .logo h2{
   color: white;
 }
-.main-list{
+.sidebar h3{
+  color:#687993;
+  margin-top: 5rem;
+  margin-left: 0.5rem;
+}
+.sidebar.main-list{
   display: flex;
+  flex-direction: column;
   color:#687993;
   padding: 1rem;
   margin-top: 5rem;
-  list-style-type: none;
-  border: none;
+  margin-left: 2rem;
 }
 .btn{
+  width: 100%;
   display: flex;
+  justify-content:flex-start;
   margin-top: 1rem;
   padding: 3px;
-  border: none;
   gap: 1.5rem;
-  list-style-type: none;
+  background-color: #1A2942;
+}
+.btn :active,
+.btn :focus,
+.btn :hover{
+ color:  #3BC0C3;
+}
+.btn span{
+  color: #687993;
+
 }
 .btn p{
+  display: flex;
+  justify-content: flex-end;
   border: 1px solid;
   border-radius: 10px;
   background-color: blue;
   color:white;
   padding: 2px;
-  list-style-type: none;
+  margin-left: auto;
+}
+.btn .fa-angle-right{
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  color: #687993;
+}
+.fa-regular{
+  width: 20px;
+  height: 20px;
+  color: #687993;
 }
